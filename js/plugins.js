@@ -18,7 +18,7 @@
 
     01. Avoid `console`
     02. Mean menu
-    03. Parallax js
+    03. Parallax js<option value="Occasion 2">Large</option>
 
 
 ******************************************************************
