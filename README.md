@@ -73,5 +73,3 @@ Linkedin - [Kevin Kipkemoi](https://www.linkedin.com/in/kevin-kipkemoi-595088ba/
 [License](LICENSE)
 
 
-
-![assets/BACKGROUND.jpg] (https://github.com/JAREDKEVIN/PIZZA-PALACE/blob/19045908762372af5e56f2733e2e67ce0d5c477c/assets/BACKGROUND.jpg)
