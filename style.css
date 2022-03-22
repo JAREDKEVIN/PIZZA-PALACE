@@ -468,7 +468,7 @@ cite {
     display: none;
   }
   .site-header .mean-container .mean-nav ul li a {
-    color: black;
+    color: white;
     display: block;
     float: none;
     font-size: 14px;
@@ -478,7 +478,7 @@ cite {
   }
   .site-header .mean-container .mean-nav ul li a.btn-default {
     background-color: transparent;
-    color: black !important;
+    color: rgb(248, 248, 248) !important;
     height: auto;
     padding: 15px 20px;
     line-height: normal;
