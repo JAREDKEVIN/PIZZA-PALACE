@@ -43,7 +43,7 @@ Click on the live link on the description.
 
 ### Installation Process
 
-* Click on the live link on the description.[LIVE LINK](https://jaredkevin.github.io/Delani-Studio-/)
+* Click on the live link on the description.[LIVE LINK](https://jaredkevin.github.io/PIZZA-PALACE/)
 
 
 ## Technology Used
@@ -61,6 +61,8 @@ Click on the live link on the description.
 * Vanilla CSS
 
 * Google Fonts
+
+* Figma Design
 
 
 ## Authors Info
