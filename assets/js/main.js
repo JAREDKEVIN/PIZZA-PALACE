@@ -112,7 +112,7 @@
 		$(".btn").click(function(){
 			event.preventDefault();
 			$("#myModal").modal('hide');
-			$(".done2").modal('show');
+			
 			
 		});
 	});
