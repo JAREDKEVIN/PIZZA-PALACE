@@ -84,6 +84,7 @@
 			});
 		});
 	},
+	
 
 		/* ---------------------------------------------
          function initializ
@@ -102,6 +103,17 @@
 		$(".btn").click(function(){
 			event.preventDefault();
 			$("#myModal").modal('show');
+			
+		});
+	});
+
+
+	$(document).ready(function(){
+		$(".btn").click(function(){
+			event.preventDefault();
+			$("#myModal").modal('hide');
+			$(".done2").modal_popup('show');
+			
 		});
 	});
 	/* ---------------------------------------------
