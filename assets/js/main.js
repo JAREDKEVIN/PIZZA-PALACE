@@ -76,8 +76,10 @@
 		
 		
 	modal_popup: function(){
+		event.preventDefault();
 		$(document).ready(function(){
 			$(".btn1").click(function(){
+				event.preventDefault()
 				$("#myModal").modal('show');
 			});
 		});
@@ -98,6 +100,7 @@
 
 	$(document).ready(function(){
 		$(".btn").click(function(){
+			event.preventDefault();
 			$("#myModal").modal('show');
 		});
 	});
