@@ -64,7 +64,7 @@
 
                                     <div class="col-lg-6 col-md-12">
                                         <div class="form-group">
-                                            <select name="occasion" class="select-custom">
+                                            <select name="occasion" class="select-custom" id="size">
                                                 <option value="">Pizza Size </option>
                                                 <option value="Occasion 1">Small</option>
                                                 <option value="Occasion 2">Meduium</option>
@@ -74,11 +74,12 @@
                                     </div>
                                     <div class="col-lg-6 col-md-12">
                                         <div class="form-group">
-                                            <select name="food" class="select-custom">
-                                                <option value="">Toppings</option>
-                                                <option value="Food 1">Mushroom</option>
-                                                <option value="Food 2">VEGETERIAN</option>
-                                                <option value="Food 3">BEEF</option>
+                                            <select name="food" class="select-custom" id="type">
+                                                <option value="">Pizza Type</option>
+                                                <option value="Food 1">MUSHROOM PIZZA</option>
+                                                <option value="Food 2">VEGETERIAN PIZZA</option>
+                                                <option value="Food 3">BEEF PIZZA</option>
+												<option value="Food 3">PIZZA-PALACE SIGNATURE PIZZA</option>
 												
                                              
                                             </select>
@@ -87,19 +88,20 @@
 
                                     <div class="col-lg-6 col-md-6">
                                         <div class="form-group">
-                                            <select name="branch" class="select-custom">
-                                                <option value="">Branch</option>
-                                                <option value="Branch 1">Branch 1</option>
-                                                <option value="Branch 2">Branch 2</option>
-                                        
+                                            <select name="branch" class="select-custom" id="toppings">
+                                                <option value="">Toppings</option>
+                                                <option value="Option 1">Thin Crust</option>
+                                                <option value="Option 2">Stuffed</option>
+                                                  <option value="Option 3">Thick</option>
+
                                             </select>
                                         </div>
                                     </div>
 
                                     <div class="col-lg-4 col-md-6">
                                         <div class="form-group">
-                                            <select name="personnum" class="select-custom">
-                                                <option value="">Number Of Persons</option>
+                                            <select name="personnum" class="select-custom"  id="number">
+                                                <option value="">Number of Pizza</option>
                                                 <option value="1">1</option>
                                                 <option value="2">2</option>
                                                 <option value="3">3</option>
@@ -114,12 +116,7 @@
                                     </div>
 
                                   
-                                    <div class="col-lg-4 col-md-6">
-                                        <div class="form-group date">
-                                            <input data-toggle="datepicker" name="date" type="text" class="form-controllar"
-                                                placeholder="Booking Date">
-                                        </div>
-                                    </div>
+                                    
                                     <div class="col-12">
                                         <div class="form-group">
                                             <textarea class="form-controllar" name="comment2" placeholder="Comment"></textarea>
@@ -128,9 +125,13 @@
                                 
                                 </div>
                             </form>
+
+
                             <div class="done2">
                                 <strong>Thank you!</strong> We have received your message. 
                             </div>
+
+
                         </div>		
 					</div>
 					<div class="modal-footer">
@@ -181,9 +182,10 @@
 
 	<div class="site-content">
 		<section id="home" class="hero-section bg-image" style="background-image: url('assets/images/ingridient.jpg');">
+
 			<div class="element-group">
 				<div class="element">
-					<img src="assets/images/element1.png" alt="Element">
+					<img src="assets/images/element1.png" height="250" width="250" alt="Element">
 				</div>
 			</div>
 			<div class="hero-section-content">
@@ -193,7 +195,7 @@
 							<div class="hero-content">
 								<h1 class="hero-title " style="color: aliceblue;" >
 									Customize a <span>Pizza</span> &
-									<span>Toppings</span> to your test your Buds.
+									<span>Toppings</span> to test your taste Buds.
 								</h1>
 								<p style="color: azure; size: 22;">
 									We allow our user to customize their pizza to their taste and delicious
