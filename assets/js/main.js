@@ -189,11 +189,28 @@ switch (pnumber){
 			console.log("error:select number of Pizza")
 
 
-total=toppingPrice+price
+total=(toppingPrice+price)
 
 numberPrice = $("#personnum").val
 
-finalTotal=numberPrice*total
+finalTotal=(numberPrice*total)
+
+
+
+
+$(document).ready(function(){
+		$(".btn").click(function(){
+			event.preventDefault();
+			$(".done2").append(finalTotal);
+			alert("Your Total amount is :" + finalTotal)
+			
+		});
+	});
+	
+
+
+	
+}
 
 
 
