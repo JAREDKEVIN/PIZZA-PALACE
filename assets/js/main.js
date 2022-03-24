@@ -102,7 +102,7 @@
 	$(document).ready(function(){
 		$(".btn").click(function(){
 			event.preventDefault();
-			$("#myModal").modal('show');
+			$("#myModal").modal('hide');
 			
 		});
 	});
@@ -111,12 +111,29 @@
 	$(document).ready(function(){
 		$(".btn").click(function(){
 			event.preventDefault();
-			$("#myModal").modal('hide');
+			$("#myModal").modal('show');
 			
-			$(".done2").modal('show');
+			$(".done2").toggle('hide');
 			
 		});
 	});
+
+let psize = $("#size:option selected").val();
+let ptype =$("#type:option selected").val();
+let ptoppings =$("#toppings:option selected").val();
+let pnumber = $("#number:option selected").val();
+
+
+
+
+
+
+
+
+
+
+
+
 	/* ---------------------------------------------
      Document ready function
      --------------------------------------------- */
