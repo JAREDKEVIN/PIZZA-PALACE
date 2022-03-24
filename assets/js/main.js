@@ -117,6 +117,91 @@
 			
 		});
 	});
+
+
+var price,toppingPrice,numberPrice
+let total=0
+
+function getPizza(size,toppings,number,total){
+	this.size= size;
+	this.toppings=toppings;
+	this.number=number;
+	this.total=total;
+	this.finalTotal=finalTotal;
+}
+
+()=>{
+
+	let psize=$("#occasion:option selected").val();
+	let ptype=$("#food:option selceted").val();
+	let ptoppings=$("#branch:option selected").val();
+	let pnumber=$("#personnum:optionselected").val();
+
+}
+
+switch (psize){
+	case "0":
+		price=0;
+		break;
+
+		case "Occasion 1":
+			price=600;
+			break;
+
+			case "Occasion 2":
+				price=800;
+				break;
+
+				case "Occasion 3":
+					price=1000;
+					
+					default:
+						console.log("error: choose your pizza size")
+}
+
+switch (ptoppings){
+	case "0":
+		toppingPrice=0;
+		break;
+
+		case "Option 1":
+			toppingPrice=50;
+			break;
+
+			case "Option 2":
+				toppingPrice=50;
+				break;
+
+				case "Option 3":
+					toppingPrice=50;
+					
+					default:
+						console.log("error: choose your pizza topping")
+					
+}
+
+switch (pnumber){
+	case "0":
+		numberPrice=0;
+		break;
+
+		default:
+			console.log("error:select number of Pizza")
+
+
+total=toppingPrice+price
+
+numberPrice = $("#personnum").val
+
+finalTotal=numberPrice*total
+
+
+
+	
+    
+
+
+
 	/* ---------------------------------------------
      Document ready function
      --------------------------------------------- */
