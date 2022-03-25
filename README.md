@@ -24,8 +24,8 @@ Here you can make orders for Pizza.Enjoy!!
 Behaviour          |	Input                                           |	Output                                   | 
 -------------------|---------------------------------------------------|----------------------------------------------|
 Invalid input      |User enters invalid email                          |An alert message is displayed                 |
-Valid input        |User enters a name and email                       |An alert message is given                     |              |
-Orders             |Select a Pizza                                     |Checkout Pizza
+Valid input        |User enters a name and email                       |An alert message is given                     |       
+Orders             |Select a Pizza                                     |Checkout Pizza                                |
 
 
 ## Setup Instructions
