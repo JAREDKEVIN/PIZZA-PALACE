@@ -102,7 +102,7 @@
 	$(document).ready(function(){
 		$(".btn").click(function(){
 			event.preventDefault();
-			$("#myModal").modal('show');
+			$("#myModal").modal('hide');
 			
 		});
 	});
@@ -111,13 +111,14 @@
 	$(document).ready(function(){
 		$(".btn").click(function(){
 			event.preventDefault();
-			$("#myModal").modal('hide');
+			$("#myModal").modal('show');
 			
-			$(".done2").modal('show');
+			$(".done2").toggle('hide');
 			
 		});
 	});
 
+<<<<<<< HEAD
 
 var price,toppingPrice,numberPrice
 let total=0
@@ -216,6 +217,21 @@ $(document).ready(function(){
 
 	
     
+=======
+let psize = $("#size:option selected").val();
+let ptype =$("#type:option selected").val();
+let ptoppings =$("#toppings:option selected").val();
+let pnumber = $("#number:option selected").val();
+
+
+
+
+
+
+
+
+
+>>>>>>> master
 
 
 
