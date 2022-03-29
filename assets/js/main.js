@@ -118,7 +118,6 @@
 		});
 	});
 
-<<<<<<< HEAD
 
 var price,toppingPrice,numberPrice
 let total=0
@@ -217,7 +216,6 @@ $(document).ready(function(){
 
 	
     
-=======
 let psize = $("#size:option selected").val();
 let ptype =$("#type:option selected").val();
 let ptoppings =$("#toppings:option selected").val();
@@ -231,7 +229,6 @@ let pnumber = $("#number:option selected").val();
 
 
 
->>>>>>> master
 
 
 
